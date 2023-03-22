@@ -1,0 +1,8 @@
+
+{% load tags %}
+
+{% autoescape off %}
+{% draw_menu request "main_menu" %}
+<hr>
+{% draw_menu request "sub_menu" %}
+{% endautoescape %}
